@@ -1,0 +1,362 @@
+<!DOCTYPE html><html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我是商户</title>
+    <meta name="keywords" content="拉卡拉支付，是国内领先的第三方支付公司。致力于为商户提供数字化经营服务，从支付、科技、货源、物流、金融、品牌、营销等全方位为商户经营助力赋能。2020年，首批与中国人民银行数字货币研究所签署战略合作协议，全面、深入配合国家推进法定数字货币研发、试点及未来的流通服务工作。与MasterCard 、VISA、Discover、American Express四大国际卡组织达成战略合作，拥有全品牌卡组织的收单服务能力。通过建设“支付科技SaaS、金融科技SaaS、跨境科技SaaS、供应链SaaS、拓客SaaS”五大平台，帮助商户实现数字化经营。拉卡拉支付,拉卡拉支付官网,拉卡拉商户平台,拉卡拉支付商户平台,拉卡拉商户,拉卡拉商户号,移动支付,手机支付,拉卡拉支付开通,拉卡拉支付接入,拉卡拉支付申请,拉卡拉公众号支付登录,拉卡拉授权和支付,拉卡拉支付接口开发,拉卡拉支付接口申请,拉卡拉支付客服,拉卡拉支付登录,刷卡支付,扫码支付,面对面收款,拉卡拉买单,拉卡拉收款商业版">
+    <meta name="description" content="拉卡拉支付商户平台支持线下场所、公众号、小程序、PC网站、APP、企业拉卡拉等经营场景快速接入拉卡拉支付。">
+    <link rel="shortcut icon" href="images/logo_blue_16.png" type="images/x-icon">
+    <link rel="stylesheet" href="lakala.css">
+
+    <style>
+        body{background-color: #f2f2f2;}
+        .bg-color1{background-color: #ffffff;height: 450px;padding-top: 20px;}
+        .bg-color1 .title1{margin-top: 20px;}
+        .bg-color2{background-color: #d9eafd;height: 1060px;padding-top: 20px;}
+        .title2{margin-bottom: 30px;}
+        .bg-color3{background-color: #ffffff;height: 360px;padding-top: 20px;}
+    </style>
+</head>
+
+
+<body> 
+    <!-- 顶部导航【【 -->
+    <div class="topMenu">
+        <div class="container">
+            <ul class="lakala-logo"><li><img src="images/logo-top-white.png" alt=""></li></ul>
+            <ul id="nav">
+                <li><a class="selected" href="commercialTenant.html">商户</a></li>
+                <li><a href="saasCompany.html">SaaS企业</a></li>
+                <li><a href="bigCompany.html">大型企业</a></li>
+                <li><a href="organization.html">四方机构</a></li>
+                <li><a href="index.html">[ 返回首页 ]</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 顶部导航 】】 -->
+
+
+    <!-- 服务流程 【【-->
+    <div class="bg-color1">
+        <p class="role-title">商户服务流程</p>
+        <section class="use-flow title1">
+            <div class="main_style_4">
+                <h4 class="hd1">1、商务洽谈</h4>           
+                <p class="p1">合作机构与拉卡拉商务对接人（简称“对接人”）沟通合作业务需求，对接人根据需求内容制定解决方案。</p>
+            </div>
+            <div class="main_style_4">
+                <h4 class="hd1">2、协议签署</h4>           
+                <p class="p1">达成合作意向后，合作机构按照对接人提供的文档《0-***（终）》要求提交合作材料、填写信息后递交给对接人，完成协议签署。</p>
+            </div>
+            <div class="main_style_4">
+                <h4 class="hd1">3、合作对接</h4>           
+                <p class="p1">对接人建立对接群并向合作机构提供接口文档，合作机构根据文档指引进行开发。</p>
+            </div>
+        </section>
+        <section class="use-flow">
+            <div class="main_style_4">
+                <h4 class="hd1">4、测试环境联调</h4>           
+                <p class="p1">合作机构开发完成后，联系对接人提供测试参数和联机测试报告模板，合作机构进行测试环境接口调试并填写联机测试报告。</p>
+            </div>
+            <div class="main_style_4">
+                <h4 class="hd1">5、生产环境验证</h4>           
+                <p class="p1">测试环境测试通过后，由合作机构提供联机测试报告给到对接人，对接人走公司内部流程后提供生产参数，合作机构进行生产环境的全流程验证。</p>
+            </div>
+            <div class="main_style_4">
+                <h4 class="hd1">6、正式上线</h4>           
+                <p class="p1">合作机构在生产环境验证通过后联系对接人再次确认权限和参数配置，确认无误后正式上线。</p>
+            </div>
+        </section>
+    </div>
+    <!-- 服务流程 】】-->
+
+
+    <!-- 接入指引 【【-->
+    <div class="bg-color2">
+        <p class="role-title">商户接入指引</p>
+        <section class="use-guide">
+            <div class="main_style_4">
+                <div class="hill">
+                </div> 
+                <div class="round4"><img src="images/guide/guide01.png" alt=""></div>
+                <h4 class="hd1">我有线下场所</h4>           
+                <p class="p1">线下场所泛指商超、便利店、餐饮、医院、学校、电影院和旅游景区等具有明确经营地址的实体场所。线下场所接入拉卡拉支付后，可以通过付款码支付或JSAPI支付，自行开发完成收款需求。</p>
+                <h4 class="hd2">·&nbsp;相关支付产品&nbsp;·</h4>
+                <a href="product-bszf.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">付款码支付：</h4>
+                        <p class="p2">商家使用扫码枪或其他扫码机具扫描用户出示的付款码，来实现收款。</p>
+                    </div>
+                </a>
+                <a href="product-xcxzf.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">JSAPI支付：</h4>
+                        <p class="p2">商家张贴收款码物料，用户打开扫一扫，扫码后输入金额，完成付款。</p>
+                    </div>
+                </a>
+            </div>
+            <div class="main_style_4">
+                <div class="hill">
+                </div> 
+                <div class="round4"><img src="images/guide/guide02.png" alt=""></div>
+                <h4 class="hd1">我有PC网站</h4>       
+                <p class="p1">拉卡拉支付支持完成域名ICP备案的网站接入支付功能。PC网站接入支付后，可以通过JSAPI支付、Native支付（仅支付宝）或收款终端支付，自行开发生成二维码，用户使用移动设备摄像头“扫一扫”来完成支付。</p>
+                <h4 class="hd2">·&nbsp;相关支付产品&nbsp;·</h4>
+                <a href="product-xcxzf.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">JSAPI支付：</h4>
+                        <p class="p2">商家张贴收款码物料，用户打开扫一扫，扫码后输入金额，完成付款。</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box1">
+                        <h4 class="hd3">Native支付：</h4>
+                        <p class="p2">商家在系统中按支付宝支付协议生成支付二维码，用户扫码拉起支付宝收银台，确认并完成付款。</p>
+                    </div>
+                </a>
+                <a href="product-znzd.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">收款终端：</h4>
+                        <p class="p2">蓝精灵</p>
+                    </div>
+                </a>
+            </div>
+            <div class="main_style_4">
+                <div class="hill">
+                </div> 
+                <div class="round4"><img src="images/guide/guide04.png" alt=""></div>
+                <h4 class="hd1">我有小程序</h4>       
+                <p class="p1">商户有已完成微信、支付宝认证的小程序并接入支付功能。商户接入拉卡拉小程序支付后，可以通过小程序支付产品来完成在小程序内销售商品或内容时的收款需求。</p>
+                <h4 class="hd2">·&nbsp;相关支付产品&nbsp;·</h4>
+                <a href="product-xcxzf.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">小程序支付：</h4>
+                        <p class="p2">用户打开商家小程序下单，输入支付密码并完成支付后，返回商家小程序，随后通过微信支付公众号或支付宝app内的消息通知下发账单消息。</p>
+                    </div>
+                </a>
+            </div>
+            <div class="main_style_4">
+                <div class="hill">
+                </div> 
+                <div class="round4"><img src="images/guide/guide04.png" alt=""></div>
+                <h4 class="hd1">我有公众号</h4>       
+                <p class="p1">商户有已完成微信认证的服务号接入支付功能。可以通过接入拉卡拉JSAPI支付产品来完成在公众号、朋友圈、聊天窗口等微信内的收款需求。</p>
+                <h4 class="hd2">·&nbsp;相关支付产品&nbsp;·</h4>
+                <a href="product-gzhzf.html" target="_blank">
+                    <div class="box1">
+                        <h4 class="hd3">JSAPI支付：</h4>
+                        <p class="p2">用户打开商家公众号下单，输入支付密码并完成支付后，返回商家的公众号，随后通过微信支付公众号下发账单消息。</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+    <!-- 接入指引 】】-->
+
+
+
+    <!-- 文档中心 【【-->
+    <div class="bg-color3">
+        <p class="role-title">常用流程</p>
+        <section class="use-recommend">
+            <div class="main_style_box">
+                <a href="commercialTenant-d01.html" target="_blank"><h4 class="hd1">商户进件流程</h4></a>           
+            </div>
+            <div class="main_style_box">
+                <a href="commercialTenant-d02.html" target="_blank"><h4 class="hd1">大额付款+担保交易接口流程</h4></a>           
+            </div>
+            <div class="main_style_box">
+                <a href="commercialTenant-d03.html" target="_blank"><h4 class="hd1">分账接口调用全流程说明</h4></a>           
+            </div>
+        </section>
+    </div>
+    <!-- 文档中心 】】-->
+
+
+
+    <!-- 支付产品 【【-->
+    <div class="">
+        <p class="role-title title2">支付产品</p>
+        <div class="solution"> 
+            <div class="thumbnail">
+                <a href="product-bszf.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp01.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">被扫支付</p></p><p class="professionTxt">被扫为在线下消费场景中使⽤收银机、智能POS、盒⼦等带有扫描条形码功能的设备扫码⽤⼾微信、 ⽀付宝APP中的付款条形码（或⼆维码）进⾏收款，提升收银效率。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-gzhzf.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp02.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">公众号支付</p><p class="professionTxt">公众号⽀付是微信JSAPI⽀付⽅式的⼀种，是指商⼾通过调⽤微信⽀付提供的JSAPI接⼝（调⽤此接⼝需要上送商⼾公众号编号，即sub_appid），在⽀付场景中调起微信⽀付模块完成收款。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-xcxzf.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp03.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">小程序支付</p><p class="professionTxt">商⼾已有微信⼩程序或⽀付宝⼩程序，⽤⼾通过好友分享或扫描⼆维码在微信内打开⼩程序时，在⼩程序内购买商品时，调⽤微信⽀付完成付款的流程。</p>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+            <div class="thumbnail">
+                <a href="product-dgzf.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp04.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">对公支付</p><p class="professionTxt">大额付款是机构/商户向拉卡拉提交申请动态账号预下单，拉卡拉根据动态账号生成规则生成账号并反馈给机构/商户，机构/商户向用户展示动态账户信息，用户获取账户信息后通过银行APP完成转账的交易。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-fz.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp05.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">交易分账</p><p class="professionTxt">机构根据预先设定好的分账商户、分账方和收入分配金额，通过自有信息系统将订单信息和分账规则提交到分账系统，将消费者支付的货款按指定规则分配给参与分账交易的各方。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-szrmb.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp07.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">数字人民币</p><p class="professionTxt">数字人民币动态码支付是由机构/商户向拉卡拉提交动态码支付预下单请求，拉卡拉根据商户开通数字人民币运营机构，向当前运营机构请求生成动态码，并将动态码向机构/商户转发，由机构/商户向用户进行动态收款码展示，用户扫码完成支付。</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="thumbnail">
+                <a href="product-ymis.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp08.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">云MIS</p><p class="professionTxt">云MIS是一款结合收银系统通过云端推送订单到智能收银设备的赋能产品。具有性能稳定、信息传输快、支付方式覆盖全、交易过程安全等特点。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-b2b-hdfk.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp09.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">B2B 货到付款</p><p class="professionTxt">货到付款是快递公司把商品送到您手上以后，您检查过商品没任何问题后，通过购买平台确认收到商品。购买平台将收款订单推送至快递员携带收款工具，通过刷卡或扫码等支付方式完成付款的流程。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-b2b-zzzf.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp10.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">B2B 大额付款</p><p class="professionTxt">大额付款是机构/商户向拉卡拉提交申请动态账号预下单，拉卡拉根据动态账号生成规则生成账号并反馈给机构/商户，机构/商户向用户展示动态账户信息，用户获取账户信息后通过银行APP完成转账交易。</p>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 支付产品 】】-->
+
+
+
+    <!-- 服务产品 【【-->
+    <div class="">
+        <p class="role-title title2">服务产品</p>
+        <div class="solution"> 
+            <div class="thumbnail">
+                <a href="#">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp12.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">入网服务</p><p class="professionTxt">拉卡拉营销平台以营销活动为核心，面向行业重点银行、商户和机构等提供营销活动配置、活动数据查询等功能服务。覆盖微信支付、支付宝、云闪付和刷卡等多个支付场景，为商户、银行、APP、机构等提供拉新、培养和促活等营销解决方案。</p>
+                        </div>
+                    </div> 
+                </a>
+                <a href="#">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp13.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">结算服务</p><p class="professionTxt">拉卡拉营销平台以营销活动为核心，面向行业重点银行、商户和机构等提供营销活动配置、活动数据查询等功能服务。覆盖微信支付、支付宝、云闪付和刷卡等多个支付场景，为商户、银行、APP、机构等提供拉新、培养和促活等营销解决方案。</p>
+                        </div>
+                    </div> 
+                </a>
+                <a href="#">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp14.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">对账服务</p><p class="professionTxt">拉卡拉营销平台以营销活动为核心，面向行业重点银行、商户和机构等提供营销活动配置、活动数据查询等功能服务。覆盖微信支付、支付宝、云闪付和刷卡等多个支付场景，为商户、银行、APP、机构等提供拉新、培养和促活等营销解决方案。</p>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 服务产品 】】-->
+
+
+
+    <!-- 智能硬件 【【-->
+    <div class="">
+        <div class="solution"> 
+            <div class="thumbnail">
+                <div class="content2">
+                    <div class="">
+                        <h2 class="big-title-white underline">智能产品</h2>
+                    </div>
+                </div> 
+                <a href="product-znsyj.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp15.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">智能收银机</p><p class="professionTxt">无缝支持各类支付场景应用，灵活配置外接 设备，多元化的支持各类支付。</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-znzd.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp06.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">智能终端</p><p class="professionTxt">无缝支持各类支付场景应用，灵活配置外接 设备，多元化的支持各类支付。</p>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 智能硬件 】】-->
+
+
+
+    <!-- 营销产品 【【-->
+    <div class="">
+        <p class="role-title title2">其他产品</p>
+        <div class="solution"> 
+            <div class="thumbnail">
+                <div class="content2">
+                    <div class="">
+                        <h2 class="big-title-white underline">营销产品</h2>
+                    </div>
+                </div> 
+                <a href="product-yx.html">
+                    <div class="content">
+                        <img class="pic" src="images/product/cp11.jpg" alt="...">
+                        <div class="contentTxt">
+                            <p class="professionName">营销产品</p><p class="professionTxt">拉卡拉营销平台以营销活动为核心，面向行业重点银行、商户和机构等提供营销活动配置、活动数据查询等功能服务。覆盖微信支付、支付宝、云闪付和刷卡等多个支付场景，为商户、银行、APP、机构等提供拉新、培养和促活等营销解决方案。</p>
+                        </div>
+                    </div> 
+                </a>
+                <div class="content3">
+                    <div class="">
+                        <p class="title-des">「 为业务赋能 」</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- 营销产品 】】-->
+
+</body></html>
